@@ -36,5 +36,4 @@ app.use('/api/payments', require('./routes/payments'));
 app.use('/api/maintenance', require('./routes/maintenance'));
 app.use('/api/analytics', require('./routes/analytics'));
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(5000, () => console.log(`Server running on port 5000`));
