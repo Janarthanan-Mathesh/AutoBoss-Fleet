@@ -43,5 +43,9 @@
     "tailwindcss": "^3.3.2",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21"
+  },
+  "overrides": {
+    "sourcemap-codec": "@jridgewell/sourcemap-codec",
+    "rollup-plugin-terser": "@rollup/plugin-terser"
   }
 }

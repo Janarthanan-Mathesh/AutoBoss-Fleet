@@ -40,6 +40,12 @@
 - [ ] Prepare frontend for Vercel deployment
 - [ ] Provide deployment instructions
 
+## Fix NPM Warnings and Missing Files
+- [x] Add overrides to frontend/package.json for deprecated packages
+- [x] Create frontend/public/index.html
+- [x] Run npm install in frontend directory
+- [x] Run npm run build to verify warnings are resolved
+
 ## Final Touches
 - [ ] Add username and password for admin
 - [ ] Ensure mobile responsiveness
